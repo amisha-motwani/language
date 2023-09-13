@@ -1,0 +1,106 @@
+*{
+  font-family: 'Source Code Pro', monospace;
+}
+
+/* Navbar */
+nav {
+    background-color: rgb(11,45,81);
+    padding: 10px 0;
+  }
+  nav a {
+    text-decoration: none;
+    color: #fff; 
+    &:hover{
+      background-color: rgb(77,77,77);
+
+  }
+}
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+  }
+  
+  li {
+    display: inline;
+    margin-right: 10px;
+    margin-top: 15px;
+
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+
+  }
+  
+  a:hover {
+    background-color: #555;
+  }
+  
+  /* Dropdown Styles */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Footer */
+
+footer {
+  background-color: rgb(77,77,77);
+  padding: 20px;
+  text-align: center;
+  color:white;
+  margin-top: 0px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ddd;
+  &:hover{
+    background-color:rgb(11,45,81);
+  }
+  }
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -16px;
+}
+.about_page, .home, .contact_us{
+  background-image: linear-gradient(to right,gray, rgb(11,45,81),gray) ;
+  color: white;
+}
